@@ -1,4 +1,24 @@
-faqImage = document.querySelector("#faq_image");
-faqImageOrigSrc = document.querySelector('#faq_image').src;
-faqImageOrigAlt = document.querySelector('#faq_image').alt;
-h2s = document.querySelectorAll('#h2');
+const faqImage = document.querySelector("#faq_image");
+const faqImageOrigSrc = document.querySelector('#faq_image').src;
+const faqImageOrigAlt = document.querySelector('#faq_image').alt;
+const h2s = document.querySelectorAll('#h2');
+
+
+const toggleVisibility = evt => {
+    const ct = evt.currentTarget;
+
+    let allClosed = false;
+
+    for (let h2 of h2s) {
+        if (h2.classList.contains("minus") ) {
+            allClosed = true;
+            h2.classList.toggle("minus");
+            h2.classList.toggle("open");
+
+            let dataImage = h2.getAttribute("data-img");
+            let dataSrc = h2.getAttribute("data-alt");
+
+            h2.classList.replace("")
+        }
+    }
+}

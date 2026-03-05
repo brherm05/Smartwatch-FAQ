@@ -1,5 +1,8 @@
 /**
  * Authors: Ethan McEvoy & Brayden Hermanson
+ * Program: Smartwatch FAQ
+ * Summary: This program provides an easy to use UI to read a couple of
+ * potential questions the user may have about the product.
  */
 
 // SETUP GLOBAL VARIABLES

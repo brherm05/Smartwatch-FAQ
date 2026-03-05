@@ -10,15 +10,21 @@ const toggleVisibility = evt => {
     let allClosed = false;
 
     for (let h2 of h2s) {
-        if (h2.classList.contains("minus") ) {
-            allClosed = true;
-            h2.classList.toggle("minus");
-            h2.classList.toggle("open");
+        if (h2 === ct) {
+            if (h2.classList.contains("minus") ) {
+                allClosed = true; }
 
-            let dataImage = h2.getAttribute("data-img");
-            let dataSrc = h2.getAttribute("data-alt");
+                h2.classList.toggle("minus");
+                h2.nextElementSibling.classList.toggle("open");
 
-            h2.classList.replace("")
+                const newSrc = h2.dataset.img;
+                const newAlt = h2.dataset.alt;
+
+                faqImage.src = newSrc;
+                faqImage.alt = newAlt;
+        } else {
+            h2.classList.remove("minus");
+            h2.nextElementSibling.classList.remove("open");
         }
     }
 }

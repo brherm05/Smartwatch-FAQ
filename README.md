@@ -3,8 +3,8 @@ A simple static website that swaps between images and expands text boxes when th
 
 ---
 ## Author
-Etmcev01 - Ethan McEvoy
-brherm05 - Brayden Hermanson
+- Etmcev01 - Ethan McEvoy
+- brherm05 - Brayden Hermanson
 
 ## 🧠 Features
 

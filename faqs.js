@@ -1,3 +1,7 @@
+/**
+ * Authors: Ethan McEvoy & 
+ */
+
 // SETUP GLOBAL VARIABLES
 const faqImage = document.querySelector("#faqs img");
 const faqImageOrigSrc = faqImage.src;

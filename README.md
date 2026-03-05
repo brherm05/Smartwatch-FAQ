@@ -26,7 +26,7 @@ A simple static website that swaps between images and expands text boxes when th
 ## ScreenShots
 ![All Closed](images/allClosed.png)
 ![WaterProof](images/waterproof.png)
-![heart rate](images/hearRate.png)
+![heart rate](images/heartRate.png)
 
 ## 🚀 New Skills Learned
 - querySelectorAll()

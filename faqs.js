@@ -1,5 +1,5 @@
 /**
- * Authors: Ethan McEvoy & 
+ * Authors: Ethan McEvoy & Brayden Hermanson
  */
 
 // SETUP GLOBAL VARIABLES

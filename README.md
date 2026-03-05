@@ -1,11 +1,10 @@
-# 🔥 Hot or Cold Number Guessing Game
-
-A simple JavaScript number guessing game where the player tries to guess a randomly generated number between **1 and 100**. After each guess, the game provides feedback based on how close the guess is to the correct number.
+# FAQ of a smart watch
+A simple static website that swaps between images and expands text boxes when the user clicks on a frequently asked question.
 
 ---
 ## Author
 Etmcev01 - Ethan McEvoy
-
+brherm05 - Brayden Hermanson
 
 ## 🧠 Features
 
